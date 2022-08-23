@@ -3,7 +3,7 @@ repository: sproogen/resume-theme
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
-version: 2
+# version: 2
 
 # Personal info
 name: 양희태 (Yang Hee Tae)
