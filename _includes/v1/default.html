@@ -6,6 +6,10 @@
   {%- include v1/experience.html -%}
 {%- endif -%}
 
+{%- if site.data.projects.size > 0 -%}
+  {%- include v1/skills.html -%}
+{%- endif -%}
+
 {%- if site.data.education.size > 0 -%}
   {%- include v1/education.html -%}
 {%- endif -%}

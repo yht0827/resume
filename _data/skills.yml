@@ -1,0 +1,13 @@
+- layout: left
+  name: Backend
+  description: |
+    * Java,  JavaScript
+    * Spring, Spring MVC, Spring Security 
+    * Node,  Express
+    * IntelliJ, WebStorm, Visual Studio Code
+
+- layout: left
+  name: Frontend
+  description: |
+    * JavaScript
+    * React.js,  HTML, CSS
