@@ -92,10 +92,9 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
-  - title: 그 밖에 활동
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      - [개인 블로그](https://computerstorage.tistory.com/)
+  - more_title: 그 밖에 활동
+    more_content: | # this will include new lines to allow paragraphs
+      - [개인 블로그](https://computerstorage.tistory.com/)  
 
 # Footer
 footer_show_references: true
