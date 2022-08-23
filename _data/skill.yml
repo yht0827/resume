@@ -9,5 +9,5 @@
 - layout: left
   name: Frontend
   description: |
-    * JavaScript
-    * React.js,  HTML, CSS
+    * JavaScript, Jquery
+    * React.js,  HTML, CSS, FreeMarker, Kendo UI
