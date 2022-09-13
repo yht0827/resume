@@ -92,11 +92,11 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
-more_title: 그 밖에 활동
+more_title: Others
 more_content: | # this will include new lines to allow paragraphs
       - 한이음 멘토링 프로젝트 (2019.04 ~ 2019.12)
-      - 3D Print & IoT Camp (2016.05)
       - 대학교 성적 우수 과목 멘토링 (2017.03 ~ 2017.12)
+      - 3D Print & IoT Camp (2016.05)
 
 # Footer
 footer_show_references: true
