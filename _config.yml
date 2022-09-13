@@ -94,7 +94,7 @@ content:
           Description of qualification
 more_title: 그 밖에 활동
 more_content: | # this will include new lines to allow paragraphs
-      - [개인 블로그](https://computerstorage.tistory.com/)  
+      - [개인 블로그](https://computerstorage.tistory.com/)
 
 # Footer
 footer_show_references: true
