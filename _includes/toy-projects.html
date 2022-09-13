@@ -1,6 +1,6 @@
 <div class="container projects-container">
-    <h3>{{ site.toyproject_title | default: "Toy Project" }}</h3>
-    {% for toyproject in site.data.toyproject %}
-    {% include {{ toyproject.layout | default: 'left' | append: ".html" }} item=toyproject %}
+    <h3>{{ site.toy-project_title | default: "Toy Project" }}</h3>
+    {% for toy-project in site.data.toy-project %}
+    {% include {{ toy-project.layout | default: 'left' | append: ".html" }} item=toy-project %}
     {% endfor %}
 </div>
