@@ -24,8 +24,8 @@
     {%- include experience.html -%}
     {%- endif -%}
 
-    {%- if site.data.toyproject.size > 0 -%}
-    {%- include toyprojects.html -%}
+    {%- if site.data.toy-project.size > 0 -%}
+    {%- include toy-projects.html -%}
     {%- endif -%}
 
     {%- if site.data.skill.size > 0 -%}
@@ -38,10 +38,6 @@
 
     {%- if site.data.class.size > 0 -%}
     {%- include class.html -%}
-    {%- endif -%}
-
-    {%- if site.more_content -%}
-    {%- include more.html -%}
     {%- endif -%}
 
   </div>
