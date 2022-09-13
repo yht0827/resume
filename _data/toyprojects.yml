@@ -1,0 +1,10 @@
+- layout: top-middle
+  name: 블록 체인 기반 자격증 관리 플랫폼
+  link: https://github.com/yht0827/JobSearchPlatform
+  quote: >
+   한이음 멘토링 프로젝트
+  description: | # this will include new lines to allow paragraphs
+    - 사용기술 :  <mark>HyperLedger</mark> <mark>React</mark>
+    - 하이퍼레저 프라이빗 블록체인 네트워크로 이력관리 플랫폼 구축
+    - React를 사용하여 플랫폼 웹 사이트 제작
+    - 참여 인원 : 3명

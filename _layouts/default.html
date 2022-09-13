@@ -24,6 +24,10 @@
     {%- include experience.html -%}
     {%- endif -%}
 
+    {%- if site.data.toyproject.size > 0 -%}
+    {%- include toyprojects.html -%}
+    {%- endif -%}
+
     {%- if site.data.skill.size > 0 -%}
     {%- include skill.html -%}
     {%- endif -%}
