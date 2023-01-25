@@ -11,7 +11,7 @@ name: 양희태
 title: Software Engineer
 email: yangheetae0827@naver.com
 # email_title: Email (Email title override)
-website: https://computerstorage.tistory.com/
+website: https://computerstorage.tistory.com
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -34,54 +34,61 @@ github_username: yht0827
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  나이 : 31 세 (1992년 생)
+  안녕하세요! 3년차 서버 개발자로 주로 Java 언어를 사용하며 <mark>Back-end</mark> 업무를 맡아서 역할을 수행하고 있습니다. 개발을 통해 성취감을 얻는 것을 좋아합니다.
   
-  최종 학력 : 가톨릭대학교 (졸업)
+  다양한 프로젝트를 통해 유지 보수하기 쉽고, 지속적으로 성장 가능한 소프트웨어에 관심이 많습니다. 때문에 테스트 작성을 중요하게 생각하고 있으며 현재 테스트 코드 도입을 위해 새로운 프로젝트 진행시 테스트 코드 작성을 병행하며 개발하고 있습니다.
   
-  자격증 : <mark>정보보안기사</mark> <mark>정보처리기사</mark> <mark>SQLD</mark> <mark>CSTS</mark>
+  꾸준한 노력을 통해 끊임없는 성장해서 동료들, 유저들에게 선한영향력을 미칠수 있는 개발자가 되고 싶습니다.
   
-  사용 기술 : <mark>Java</mark> <mark>Spring</mark> <mark>JavaScript</mark> <mark>Node</mark>
-  
-  <mark>Back-end</mark> 개발 업무를 하고 있습니다.
-  
-  안녕하세요! 백엔드 개발자 양희태 입니다.
-  
-  개발을 통해 성취감을 얻는 것을 좋아합니다.
-  
-  꾸준한 노력을 통해 끊임없는 성장을 하고 싶습니다.
-  
-  테스트 작성을 중요하게 생각하게 생각하고 있습니다.
+  위에서 언급한 개발자가 되기 위하여 지금도 끊임없이 공부중이고 발전하고 있습니다. 블로그에는 공부를 하면서 알게된점, 고민했던 점을 녹이면서 글을 작성하고 있으며 현재도 발전을 위하여 다양한 개발관련 대외활동을 진행하고 있습니다.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
+  - title: Work Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+      - layout: top-left
+        title: Ahnlab
+        sub_title: Software Engineer
+        caption: 2020.01.06 ~
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          **Ahnlab AIPS (차세대 네트워크 침입방지 솔루션)**:<a href="https://www.ahnlab.com/kr/site/product/productView.do?prodSeq=131" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">AIPS</a>
+          - <mark>WebSocket</mark>, <mark>stomp</mark>을 활용하여 탐지 경보 기능 개발
+          - Snort 정책 파일 업로드(import), 다운로드(export) 기능 개발
+          - 외부 보안 인증 서버(LDAPS, RADIUS, TACACS+) 연동 로그인 기능 개발
+          - 대용량 로그 분석 및 모니터링 페이지 UI 개선(로그 타입 별 Tab, 검색 방식 개선)
+          - 대용량 정책 데이터 처리(bulk insert) 및 <mark>Lucene</mark>을 활용하여 조회 성능 개선
+          - 타 장비 연동을 통한 자동 펌웨어 업데이트 시 장비 재시작 오류 이슈 처리  
+          - Lucene Index 파일과 DB 데이터 Sync 문제 이슈 처리
+
+  - title: Other Experience
+    layout: list
+    content:
+      - layout: top-left
+        title: Toy Project
+        description: | # this will include new lines to allow paragraphs
+          **ㅊㅊ(이건 어때요? 저건 어때요? 세상 모든 것에 대한 추천을 하는 커뮤니티)**:<a href="https://github.com/f-lab-edu/chu-chu" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">chu-chu</a>
+           -  
+
+          **hot-deal-moa(E-commerce 핫딜 서비스)**:<a href="https://github.com/f-lab-edu/hot-deal-moa" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">hot-deal-moa</a>
+           - 
+          
+          **자격증 관리 플랫폼(job-search-platform)**:<a href="https://github.com/yht0827/JobSearchPlatform" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">job-search-platform</a>
+          - <mark>HyperLedger</mark> <mark>React</mark> <mark>Redux</mark>
+          - HyperLedger Fabric 블록체인 네트워크로 자격증 관리 플랫폼 구축
+          - Playground를 활용하여 체인코드 생성(Query, script, acl, model)
+          - React를 사용하여 플랫폼 웹 사이트 제작
+
+      - layout: top-left
+        title: Certificate
+        description: | # this will include new lines to allow paragraphs
+          **정보보안기사 (2019. 06. 21)**
+          
+          **SQLD (2018. 10. 02)**
+          
+          **정보처리기사 (2017. 11. 24)**
+          
+          **CSTS (2017. 11. 24)**
+
   - title: Education
     layout: list
     content:
@@ -95,9 +102,9 @@ content:
           Description of qualification
 more_title: Others
 more_content: | # this will include new lines to allow paragraphs
-      - 한이음 멘토링 프로젝트 (2019.04 ~ 2019.12)
-      - 대학교 성적 우수 과목 멘토링 (2017.03 ~ 2017.12)
-      - 3D Print & IoT Camp (2016.05)
+  - 한이음 멘토링 프로젝트 (2019.04 ~ 2019.12)
+  - 대학교 성적 우수 과목 멘토링 (2017.03 ~ 2017.12)
+  - 3D Print & IoT Camp (2016.05)
 
 # Footer
 footer_show_references: true
@@ -112,9 +119,9 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
+exclude: [
   "Gemfile",
   "Gemfile.lock",
   "node_modules",
@@ -125,4 +132,4 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  ]
+]

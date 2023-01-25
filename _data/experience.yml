@@ -1,9 +1,0 @@
-# Experience template
-- layout: left
-  company: 안랩
-  job_title: <mark>Java</mark> <mark>Spring</mark> 백엔드 개발자 / 연구원
-  dates: 2020.01.06 ~
-  quote: >
-
-  description: | # this will include new lines to allow paragraphs
-    - 백엔드 개발
