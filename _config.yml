@@ -67,10 +67,18 @@ content:
         title: Toy Project
         description: | # this will include new lines to allow paragraphs
           **<a href="https://github.com/f-lab-edu/chu-chu" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">ㅊㅊ(이건 어때요? 저건 어때요? 세상 모든 것에 대한 추천을 하는 커뮤니티)</a>**
-           -  
+          - Spring Boot를 활용한 API 개발
+          - Spring Securtiy와 JWT을 통한 사용자 인증 시스템 구현
+          - Ngrinder와 VisualVM을 활용한 성능 개선, 모니터링
+            - DB Index를 통해 50명 기준 TPS 24.4대 → 1207.1대로 개선
+            - scale out을 통해 1000명 기준 TPS 1200대 → 5000대로 개선
+          - redis cache(global cache)를 활용한 성능개선
+          - Jenkins를 활용한 CI/CD 구축
 
           **<a href="https://github.com/f-lab-edu/hot-deal-moa" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">hot-deal-moa(E-commerce 핫딜 서비스)</a>**
-           - 
+          - Spring Boot를 활용한 API 개발
+          - Spring Rest Docs를 활용한 테스트 및 API 문서화
+          - Github Action와 NCP를 활용한 CI/CD 구축
           
           **<a href="https://github.com/yht0827/JobSearchPlatform" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">자격증 관리 플랫폼(job-search-platform)</a>**
           - <mark>HyperLedger</mark> <mark>React</mark> <mark>Redux</mark>
@@ -87,7 +95,7 @@ content:
           - 정보처리기사(2017. 11. 24)
           - CSTS(2017. 11. 24)
           
-          **외부 활동**
+          **외  활동**
           - Flab 멘티(2022. 08 ~ 2023. 01)
           - 비사이드 9기 활동(2022. 02 ~ 2022. 06)
 
