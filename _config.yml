@@ -1,13 +1,14 @@
 # Site
-repository: sproogen/resume-theme
+repository: yht0827/resume-theme
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
-# version: 2
+version: 2
+update_date: 2023.01.25
 
 # Personal info
-name: 양희태 (Yang Hee Tae)
-title: Java Back-End Developer
+name: 양희태
+title: Software Engineer
 email: yangheetae0827@naver.com
 # email_title: Email (Email title override)
 website: https://computerstorage.tistory.com/
