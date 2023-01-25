@@ -79,50 +79,55 @@ content:
           - React를 사용하여 플랫폼 웹 사이트 제작
 
       - layout: top-left
-        title: Certificate
+        title: ETC
         description: | # this will include new lines to allow paragraphs
           **자격증**
           - 정보보안기사(2019. 06. 21)
           - SQLD(2018. 10. 02)
           - 정보처리기사(2017. 11. 24)
           - CSTS(2017. 11. 24)
+          
+          **외부 활동**
+          - Flab 멘티(2022. 08 ~ 2023. 01)
+          - 비사이드 9기 활동(2022. 02 ~ 2022. 06)
 
   - title: Education
     layout: list
     content:
-  - layout: left
-    name: 서강대학교정보통신대학원
-    dates: 2021.03 ~
-    qualification: 데이터 사이언스 과정(재학)
-    quote: >
-      서울 소재 대학원
-    description: | # this will include new lines to allow paragraphs
-  - layout: left
-    name: 가톨릭대학교
-    dates: 2012.03 ~ 2020.02
-    qualification: 정보통신전자공학, 컴퓨터공학(복수전공)
-    quote: >
-      경기도 소재 대학교
-    description: | # this will include new lines to allow paragraphs
-      - 졸업학점 : 3.68 / 4.5
-      - 2학년 2학기 : 성적 우수 장학금 수여
-      - 3학년 1학기 : 성적 우수 장학금 수여
-  - layout: left
-    name: 구리 인창 고등학교
-    dates: 2008.03 ~ 2011.02
-    qualification: 인문 계열
-    quote: >
-      경기도 소재 고등학교
-    description: | # this will include new lines to allow paragraphs
+      - layout: left
+        name: 서강대학교정보통신대학원
+        dates: 2021.03 ~
+        qualification: 데이터 사이언스 과정(재학)
+        quote: >
+          서울 소재 대학원
+        description: | # this will include new lines to allow paragraphs
+      - layout: left
+        name: 가톨릭대학교
+        dates: 2012.03 ~ 2020.02
+        qualification: 정보통신전자공학, 컴퓨터공학(복수전공)
+        quote: >
+          경기도 소재 대학교
+        description: | # this will include new lines to allow paragraphs
+          - 졸업학점 : 3.68 / 4.5
+          - 2학년 2학기 : 성적 우수 장학금 수여
+          - 3학년 1학기 : 성적 우수 장학금 수여
+          - 한이음 멘토링 프로젝트 (2019.04 ~ 2019.12)
+          - 대학교 성적 우수 과목 멘토링 (2017.03 ~ 2017.12)
+          - 3D Print & IoT Camp (2016.05)
+      - layout: left
+        name: 구리 인창 고등학교
+        dates: 2008.03 ~ 2011.02
+        qualification: 인문 계열
+        quote: >
+          경기도 소재 고등학교
+        description: | # this will include new lines to allow paragraphs
 
 more_title: Others
 more_content: | # this will include new lines to allow paragraphs
-  - 한이음 멘토링 프로젝트 (2019.04 ~ 2019.12)
-  - 대학교 성적 우수 과목 멘토링 (2017.03 ~ 2017.12)
-  - 3D Print & IoT Camp (2016.05)
+
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
