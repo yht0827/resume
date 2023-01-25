@@ -52,7 +52,7 @@ content:
         caption: 2020.01.06 ~
         description: | # this will include new lines to allow paragraphs
           **<a href="https://www.ahnlab.com/kr/site/product/productView.do?prodSeq=131" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Ahnlab AIPS (차세대 네트워크 침입방지 솔루션)</a>**
-          - <mark>WebSocket</mark>, <mark>stomp</mark>을 활용하여 탐지 경보 기능 개발
+          - <mark>WebSocket</mark> <mark>stomp</mark>을 활용하여 탐지 경보 기능 개발
           - Snort 정책 파일 업로드(import), 다운로드(export) 기능 개발
           - 외부 보안 인증 서버(LDAPS, RADIUS, TACACS+) 연동 로그인 기능 개발
           - 대용량 로그 분석 및 모니터링 페이지 UI 개선(로그 타입 별 Tab, 검색 방식 개선)
@@ -87,6 +87,24 @@ content:
           - React를 사용하여 플랫폼 웹 사이트 제작
 
       - layout: top-left
+        title: Skill
+        description: | # this will include new lines to allow paragraphs
+          **Backend**
+          - Java,  JavaScript
+          - Spring, Spring MVC, Spring Security
+          - Node,  Express
+          - IntelliJ, WebStorm, Visual Studio Code
+          
+          **Frontend**
+          - JavaScript, Jquery
+          - React, HTML, CSS, FreeMarker, Kendo UI
+          
+          **Infra**
+          - Mysql, Postgresql
+          - Docker, k8s
+          - AWS, NCP
+
+      - layout: top-left
         title: ETC
         description: | # this will include new lines to allow paragraphs
           **자격증**
@@ -95,24 +113,24 @@ content:
           - 정보처리기사(2017. 11. 24)
           - CSTS(2017. 11. 24)
           
-          **외  활동**
-          - Flab 멘티(2022. 08 ~ 2023. 01)
+          **개발 활동**
+          - F-lab 멘티(2022. 08 ~ 2023. 01)
           - 비사이드 9기 활동(2022. 02 ~ 2022. 06)
 
   - title: Education
     layout: list
     content:
-      - layout: left
-        name: 서강대학교정보통신대학원
-        dates: 2021.03 ~
-        qualification: 데이터 사이언스 과정(재학)
+      - layout: top-left
+        title: 서강대학교정보통신대학원
+        sub_title: 데이터 사이언스 과정(재학)
+        caption: 2021.03 ~
         quote: >
           서울 소재 대학원
         description: | # this will include new lines to allow paragraphs
-      - layout: left
-        name: 가톨릭대학교
-        dates: 2012.03 ~ 2020.02
-        qualification: 정보통신전자공학, 컴퓨터공학(복수전공)
+      - layout: top-left
+        title: 가톨릭대학교
+        sub_title: 정보통신전자공학, 컴퓨터공학(복수전공)
+        caption: 2012.03 ~ 2020.02
         quote: >
           경기도 소재 대학교
         description: | # this will include new lines to allow paragraphs
@@ -122,10 +140,10 @@ content:
           - 한이음 멘토링 프로젝트 (2019.04 ~ 2019.12)
           - 대학교 성적 우수 과목 멘토링 (2017.03 ~ 2017.12)
           - 3D Print & IoT Camp (2016.05)
-      - layout: left
-        name: 구리 인창 고등학교
-        dates: 2008.03 ~ 2011.02
-        qualification: 인문 계열
+      - layout: top-left
+        title: 구리 인창 고등학교
+        sub_title: 인문 계열
+        caption: 2008.03 ~ 2011.02
         quote: >
           경기도 소재 고등학교
         description: | # this will include new lines to allow paragraphs
