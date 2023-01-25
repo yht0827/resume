@@ -81,7 +81,6 @@ content:
           - Github Action와 NCP를 활용한 CI/CD 구축
           
           **<a href="https://github.com/yht0827/JobSearchPlatform" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">자격증 관리 플랫폼(job-search-platform)</a>**
-          - <mark>HyperLedger</mark> <mark>React</mark> <mark>Redux</mark>
           - HyperLedger Fabric 블록체인 네트워크로 자격증 관리 플랫폼 구축
           - Playground를 활용하여 체인코드 생성(Query, script, acl, model)
           - React를 사용하여 플랫폼 웹 사이트 제작
@@ -147,10 +146,6 @@ content:
         quote: >
           경기도 소재 고등학교
         description: | # this will include new lines to allow paragraphs
-
-more_title: Others
-more_content: | # this will include new lines to allow paragraphs
-
 
 # Footer
 footer_show_references: false
