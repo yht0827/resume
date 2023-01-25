@@ -51,7 +51,7 @@ content:
         sub_title: Software Engineer
         caption: 2020.01.06 ~
         description: | # this will include new lines to allow paragraphs
-          **Ahnlab AIPS (차세대 네트워크 침입방지 솔루션)**:<a href="https://www.ahnlab.com/kr/site/product/productView.do?prodSeq=131" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">AIPS</a>
+          **<a href="https://www.ahnlab.com/kr/site/product/productView.do?prodSeq=131" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Ahnlab AIPS (차세대 네트워크 침입방지 솔루션)</a>**
           - <mark>WebSocket</mark>, <mark>stomp</mark>을 활용하여 탐지 경보 기능 개발
           - Snort 정책 파일 업로드(import), 다운로드(export) 기능 개발
           - 외부 보안 인증 서버(LDAPS, RADIUS, TACACS+) 연동 로그인 기능 개발
@@ -66,13 +66,13 @@ content:
       - layout: top-left
         title: Toy Project
         description: | # this will include new lines to allow paragraphs
-          **ㅊㅊ(이건 어때요? 저건 어때요? 세상 모든 것에 대한 추천을 하는 커뮤니티)**:<a href="https://github.com/f-lab-edu/chu-chu" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">chu-chu</a>
+          **<a href="https://github.com/f-lab-edu/chu-chu" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">ㅊㅊ(이건 어때요? 저건 어때요? 세상 모든 것에 대한 추천을 하는 커뮤니티)</a>**
            -  
 
-          **hot-deal-moa(E-commerce 핫딜 서비스)**:<a href="https://github.com/f-lab-edu/hot-deal-moa" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">hot-deal-moa</a>
+          **<a href="https://github.com/f-lab-edu/hot-deal-moa" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">hot-deal-moa(E-commerce 핫딜 서비스)</a>**
            - 
           
-          **자격증 관리 플랫폼(job-search-platform)**:<a href="https://github.com/yht0827/JobSearchPlatform" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">job-search-platform</a>
+          **<a href="https://github.com/yht0827/JobSearchPlatform" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">자격증 관리 플랫폼(job-search-platform)</a>**
           - <mark>HyperLedger</mark> <mark>React</mark> <mark>Redux</mark>
           - HyperLedger Fabric 블록체인 네트워크로 자격증 관리 플랫폼 구축
           - Playground를 활용하여 체인코드 생성(Query, script, acl, model)
@@ -81,13 +81,11 @@ content:
       - layout: top-left
         title: Certificate
         description: | # this will include new lines to allow paragraphs
-          **정보보안기사 (2019. 06. 21)**
-          
-          **SQLD (2018. 10. 02)**
-          
-          **정보처리기사 (2017. 11. 24)**
-          
-          **CSTS (2017. 11. 24)**
+          **자격증**
+          - 정보보안기사(2019. 06. 21)
+          - SQLD(2018. 10. 02)
+          - 정보처리기사(2017. 11. 24)
+          - CSTS(2017. 11. 24)
 
   - title: Education
     layout: list
