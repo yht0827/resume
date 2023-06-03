@@ -70,8 +70,8 @@ content:
           - Spring Boot를 활용한 API 개발
           - Spring Securtiy와 JWT을 통한 사용자 인증 시스템 구현
           - Ngrinder와 VisualVM을 활용한 성능 개선, 모니터링
-            - DB Index를 통해 50명 기준 TPS 24.4대 → 1207.1대로 개선
-            - scale out을 통해 1000명 기준 TPS 1200대 → 5000대로 개선
+            - DB Index를 통해 <mark>50명</mark> 기준 (TPS 24.4 → 1207.1) 성능 개선
+            - scale out을 통해 <mark>1000명</mark> 기준 (TPS 1200 → 5000) 성능 개선
           - redis cache(global cache)를 활용한 성능개선
           - Jenkins를 활용한 CI/CD 구축
 
@@ -80,9 +80,9 @@ content:
           - Redis Cache를 활용하여 다중서버 로그인 세션 처리
           - Redisson 분산락을 활용한 다중서버 환경에서의 동시성 트랜잭션 보장 처리
           - Ngrinder를 활용한 성능 개선, 모니터링
-            - Nginx 로드밸런싱 및 서버 scale-out 테스트 3000명 기준 TPS 700대 -> 9000대로 개선
+            - Nginx 로드밸런싱 및 서버 scale-out 테스트 <mark>3000명</mark> 기준 (TPS 700 -> 9000) 성능 개선
           - QueryDsl 성능 개선
-            - No-offset 쿼리 수정을 통해 500만건 기준 850ms -> 6ms로 개선
+            - No-offset 쿼리 수정을 통해 <mark>500만건</mark> 기준 (850ms -> 6ms) 성능 개선
           - Lucene Index를 활용하여 기존 Full-Index 방식의 상품목록 검색 성능 개선
           - Github Action와 NCP를 활용한 CI/CD 구축
           
