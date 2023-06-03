@@ -51,14 +51,15 @@ content:
         sub_title: Software Engineer
         caption: 2020.01.06 ~ 2022.08.31
         description: | # this will include new lines to allow paragraphs
-          **<a href="https://www.ahnlab.com/kr/site/product/productView.do?prodSeq=131" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Ahnlab AIPS (차세대 네트워크 침입방지 솔루션)</a>**
-          - <mark>WebSocket</mark> <mark>stomp</mark>을 활용하여 탐지 경보 기능 개발
-          - Snort 정책 파일 업로드(import), 다운로드(export) 기능 개발
-          - 외부 보안 인증 서버(LDAPS, RADIUS, TACACS+) 연동 로그인 기능 개발
-          - 대용량 로그 분석 및 모니터링 페이지 UI 개선(로그 타입 별 Tab, 검색 방식 개선)
-          - 대용량 정책 데이터 처리(bulk insert) 및 <mark>Lucene</mark>을 활용하여 조회 성능 개선
-          - 타 장비 연동을 통한 자동 펌웨어 업데이트 시 장비 재시작 오류 이슈 처리  
-          - Lucene Index 파일과 DB 데이터 Sync 문제 이슈 처리
+          **<a href="https://www.ahnlab.com/kr/site/product/productView.do?prodSeq=131" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Ahnlab AIPS (차세대 네트워크 침입방지 솔루션)</a>** 
+          - 기능 개발, 시스템 아키텍처 개선
+            - <mark>WebSocket</mark> <mark>stomp</mark>을 사용하여 수신받은 메세지 경보 알림 기능 개발
+            - Snort 기반의 정책 등록 편의성을 위한 파일 업로드(import), 다운로드(export) 기능 개발
+            - 보안 인증 서버 외부 연동 처리 로그인 및 스프링 시큐리티 작업
+            - 대용량 정책 데이터 처리(bulk insert) 및 <mark>Lucene</mark> Index를 활용하여 대용량 로그 파일 조회 성능 개선
+          - 운영 이슈 해결 및 장애 대응
+            - 펌웨어 업데이트 시 장비 재시작 오류 이슈 처리  
+            - CRUD 작업시 Lucene Index 파일과 DB 데이터의 Sync 문제 이슈 처리
 
   - title: Other Experience
     layout: list
