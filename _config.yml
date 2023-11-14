@@ -4,14 +4,14 @@ repository: yht0827/resume-theme
 
 # Content configuration version
 version: 2
-update_date: 2023.06.03
+update_date: 2023.11.14
 
 # Personal info
 name: 양희태
 title: Software Engineer
 email: yangheetae0827@naver.com
 # email_title: Email (Email title override)
-website: https://computerstorage.tistory.com
+website: https://velog.io/@yht0827
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -53,14 +53,20 @@ content:
         description: | # this will include new lines to allow paragraphs
           **<a href="https://www.ahnlab.com/kr/site/product/productView.do?prodSeq=131" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Ahnlab AIPS (차세대 네트워크 침입방지 솔루션)</a>** 
           - 기능 개발, 시스템 아키텍처 개선
-            - <mark>WebSocket</mark> <mark>stomp</mark>을 사용하여 수신받은 메세지 경보 알림 기능 개발
-            - Snort 기반의 정책 등록 편의성을 위한 파일 업로드(import), 다운로드(export) 기능 개발
+            - <mark>WebSocket</mark> <mark>stomp</mark>을 사용하여 웹 팝업 메세지 경보 알림 기능 개발
+            - Snort 기반의 Rule 정책 등록 편의성을 위한 파일 업로드(import), 다운로드(export) 기능 개발 
             - 보안 인증 서버 외부 연동 처리 로그인 및 스프링 시큐리티 작업
-            - 대용량 정책 데이터 처리(bulk insert) 및 <mark>Lucene</mark> Index를 활용하여 대용량 로그 파일 조회 성능 개선
+            - Bulk Insert를 통한 대용량 정책 데이터 삽입 및 <mark>Lucene</mark> Index을 통한 로그 파일 조회 성능 개선
           - 운영 이슈 해결 및 장애 대응
-            - 펌웨어 업데이트 시 장비 재시작 오류 이슈 처리  
-            - CRUD 작업시 Lucene Index 파일과 DB 데이터의 Sync 문제 이슈 처리
+            - 펌웨어 업데이트 진행 중 Out Of Memory로 인하여 장비 재시작 오류 이슈 처리  
+            - 프로젝트 CRUD 작업시 Lucene Index 파일과 RDB 간의 데이터 동기화(Sync) 오류 문제 이슈 처리
+            - 정책 업데이트 후 장비 재시작(reboot) 수행 프로세스 시간 단축 (45ms -> 20ms)
 
+          **<a href="https://www.ahnlab.com/kr/site/product/productView.do?prodSeq=10" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Ahnlab TG (차세대 통합 보안 방화벽)</a>**
+          - 기능 개발 및 담당 업무
+            -  레거시 개편(php > Spring)
+            -  다수의 Migration Script 작성
+            -  Selenium UI 및 Junit로 테스트 코드 작성하여 유닛 테스트 수행
   - title: Other Experience
     layout: list
     content:
