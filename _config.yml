@@ -82,7 +82,7 @@ content:
             - scale out을 통해 <mark>1000명</mark> 기준 (TPS 1200 → 5000) 성능 개선
           - redis cache(global cache)를 활용한 성능개선
           - Jenkins를 활용한 CI/CD 구축
-          <br />
+           
           **<a href="https://github.com/f-lab-edu/hot-deal-moa" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">hot-deal-moa(E-commerce 핫딜 서비스)</a>**
           - Spring Rest Docs를 활용한 테스트 및 API 문서화
           - Spring Interceptor 및 Aop를 통한 로그인 세션 자동 체크 처리
