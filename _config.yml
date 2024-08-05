@@ -118,40 +118,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Github Action과 Dokcer를 활용하여 CI/CD 자동배포 인프라 구축
 
-  - title: Skill & Other Experience
-    layout: list
-    content:
-      - layout: top-left
-        title: Skill
-        description: | # this will include new lines to allow paragraphs
-          **Backend**
-          - Java, JavaScript
-          - Spring, Spring MVC, Spring Security
-          - Node, Express
-          - IntelliJ, WebStorm, Visual Studio Code
-
-          **Frontend**
-          - JavaScript, Jquery
-          - React, HTML, CSS, FreeMarker, Kendo UI
-
-          **Infra**
-          - Mysql, Postgresql
-          - Docker, k8s
-          - AWS, NCP
-
-      - layout: top-left
-        title: ETC
-        description: | # this will include new lines to allow paragraphs
-          **자격증**
-          - 정보보안기사(2019. 06. 21)
-          - SQLD(2018. 10. 02)
-          - 정보처리기사(2017. 11. 24)
-          - CSTS(2017. 11. 24)
-
-          **개발 활동**
-          - F-lab 멘티
-          - 비사이드 9기 활동 및 포텐데이 참여
-
   - title: Education
     layout: list
     content:
@@ -184,6 +150,40 @@ content:
         quote: >
           경기도 소재 고등학교
         description: | # this will include new lines to allow paragraphs
+
+  - title: Other
+    layout: list
+    content:
+      - layout: top-left
+        title: Skill
+        description: | # this will include new lines to allow paragraphs
+          **Backend**
+          - Java, JavaScript
+          - Spring, Spring MVC, Spring Security
+          - Node, Express
+          - IntelliJ, WebStorm, Visual Studio Code
+
+          **Frontend**
+          - JavaScript, Jquery
+          - React, HTML, CSS, FreeMarker, Kendo UI
+
+          **Infra**
+          - Mysql, Postgresql
+          - Docker, k8s
+          - AWS, NCP
+
+      - layout: top-left
+        title: ETC
+        description: | # this will include new lines to allow paragraphs
+          **자격증**
+          - 정보보안기사(2019. 06. 21)
+          - SQLD(2018. 10. 02)
+          - 정보처리기사(2017. 11. 24)
+          - CSTS(2017. 11. 24)
+
+          **개발 활동**
+          - F-lab 멘티
+          - 비사이드 9기 활동 및 포텐데이 참여
 
 # Footer
 footer_show_references: false
