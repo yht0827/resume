@@ -122,12 +122,14 @@ content:
     layout: list
     content:
       - layout: top-left
-        title: 서강대학교정보통신대학원
+        title: 서강대학교 정보통신대학원
         sub_title: 데이터 사이언스 과정
         caption: 2021.03 ~ 2024.08
         quote: >
           서울 소재 대학원
         description: |
+          - 빅데이터 및 머신러닝 학습 및 토이 프로젝트 수행
+          - IT 대학원 연합회 모임 참여
 
       - layout: top-left
         title: 가톨릭대학교
