@@ -47,27 +47,27 @@ content:
     layout: list
     content:
       - layout: top-left
-        title: Ahnlab
+        title: AhnLab
         sub_title: Software Engineer
         caption: 2020.01.06 ~ 2022.08.31
         description: | # this will include new lines to allow paragraphs
-          **<a href="https://www.ahnlab.com/ko/product/intrusion-prevention-system" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Ahnlab AIPS (차세대 네트워크 침입방지 솔루션)</a>** 
+          **<a href="https://www.ahnlab.com/ko/product/intrusion-prevention-system" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">AhnLab AIPS (차세대 네트워크 침입방지 솔루션)</a>** 
           - 기능 개발, 시스템 아키텍처 개선
-            - WebSocket, stomp을 사용하여 웹 경보 메세지 알림 기능 개발
-            - Snort 기반의 Rule 정책 등록 편의성을 위한 파일 업로드(import), 다운로드(export) 기능 개발 
-            - 보안 인증 서버 외부 연동 처리 로그인 및 스프링 시큐리티 작업
-            - 대용량 정책 데이터 삽입 및 Lucene Index를 통한 로그 파일 조회 성능 개선
+            - WebSocket 및 STOMP 프로토콜을 활용하여 웹 경고 메시지 알림 기능 개발
+            - Snort 기반의 룰 정책 등록 편의성을 위한 파일 업로드(import) 및 다운로드(export) 기능 구현
+            - 보안 인증 서버 외부 연동 및 로그인 처리, 스프링 시큐리티 설정 작업
+            - 대용량 정책 데이터 삽입 및 Lucene 인덱스를 통한 로그 파일 조회 성능 개선
           - 운영 이슈 해결 및 장애 대응
-            - 펌웨어 업데이트 진행 중 Out Of Memory로 인한 장비 재시작 오류 이슈 처리  
-            - 장비 내의 RDB와 Lucene Index 파일간의 데이터 동기화(Sync) 오류 문제 이슈 처리
-            - 정책 업데이트 후 장비 재시작(reboot) 수행 프로세스 시간 단축 (45ms -> 20ms)
+            - 펌웨어 업데이트 중 발생한 Out Of Memory로 인한 장비 재시작 오류 문제 처리
+            - 장비 내 RDB와 Lucene 인덱스 파일 간의 데이터 동기화(Sync) 오류 문제 해결
+            - 정책 업데이트 후 장비 재시작(reboot) 수행 프로세스 시간 단축 (45ms → 20ms)
 
-          **<a href="https://www.ahnlab.com/ko/product/next-generation-firewall" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Ahnlab TG (차세대 통합 보안 방화벽)</a>**
+          **<a href="https://www.ahnlab.com/ko/product/next-generation-firewall" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">AhnLab TG (차세대 통합 보안 방화벽)</a>**
           - 기능 개발 및 담당 업무
-            -  레거시 개편(php > Spring)
-            -  다수의 Migration Script 작성
-            -  CC 인증 관련 이슈 다수 처리
-            -  Selenium UI 및 Junit로 테스트 코드 작성하여 유닛 테스트 수행
+            - 레거시 프로젝트 개편 (PHP → Java Spring) 
+            - 다수의 마이그레이션 스크립트 작성
+            - CC 인증 관련 이슈 처리
+            - Selenium UI 및 JUnit을 활용한 테스트 코드 작성 및 유닛 테스트 수행 
 
   - title: Toy Project
     layout: list
