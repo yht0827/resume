@@ -83,6 +83,7 @@ content:
           - redis cache(global cache)를 활용한 성능개선
           - Jenkins를 활용한 CI/CD 구축
 
+
           **<a href="https://github.com/f-lab-edu/hot-deal-moa" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">hot-deal-moa(E-commerce 핫딜 서비스)</a>**
           - Spring Rest Docs를 활용한 테스트 및 API 문서화
           - Spring Interceptor 및 Aop를 통한 로그인 세션 자동 체크 처리
@@ -95,13 +96,15 @@ content:
             - No-offset 쿼리 수정을 통해 <mark>500만건</mark> 기준 (850ms -> 6ms) 성능 개선
           - Github Action와 NCP를 활용한 CI/CD 구축
           
+          
           **<a href="https://github.com/potenday-project/dj_303" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">DJ 303(Chat GPT 음악 추천 서비스)</a>**
           - Chat GPT API를 활용하여 AI 추천 노래 리스트 활용
           - Spring Boot & React를 활용하여 플레이리스트 웹 서비스 개발
           - Docker를 통한 자동 웹 서비스 배포
           - Pessimistic Lock을 활용하여 추천 노래 리스트 생성시 발생하는 동시성 문제 해결
 
-          **<a href="https://github.com/yht0827/kfanboy" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">KPop 팬 플랫폼 서비스</a>**
+
+          **<a href="https://github.com/yht0827/kfanboy" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">K-pop 팬 플랫폼 서비스</a>**
           - 
 
       - layout: top-left
