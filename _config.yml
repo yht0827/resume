@@ -4,7 +4,7 @@ repository: yht0827/resume-theme
 
 # Content configuration version
 version: 2
-update_date: 2023.11.14
+update_date: 2024.08.05
 
 # Personal info
 name: 양희태
@@ -34,13 +34,13 @@ github_username: yht0827
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요! 3년차 서버 개발자로 주로 Java 언어를 사용하며 Back-end 업무를 맡아서 역할을 수행하고 있습니다. 개발을 통해 성취감을 얻는 것을 좋아합니다.
+  안녕하세요! 저는 서버 개발자로 주로 Java 언어를 사용하며 Back-end 업무를 맡아서 역할을 수행하고 있습니다. 개발을 통해 성취감을 얻는 것을 좋아합니다.
   
   다양한 프로젝트를 통해 유지 보수하기 쉽고, 지속적으로 성장 가능한 소프트웨어에 관심이 많습니다. 때문에 테스트 작성을 중요하게 생각하고 있으며 현재 테스트 코드 도입을 위해 새로운 프로젝트 진행시 테스트 코드 작성을 병행하며 개발하고 있습니다.
   
   꾸준한 노력을 통해 끊임없는 성장해서 동료들, 유저들에게 선한영향력을 미칠수 있는 개발자가 되고 싶습니다.
   
-  위에서 언급한 개발자가 되기 위하여 지금도 끊임없이 공부중이고 발전하고 있습니다. 블로그에는 공부를 하면서 알게된점, 고민했던 점을 녹이면서 글을 작성하고 있으며 현재도 발전을 위하여 다양한 개발관련 대외활동을 진행하고 있습니다.
+  위에서 언급한 개발자가 되기 위하여 지금도 끊임없이 공부중이고 발전하고 있습니다. 블로그에는 공부를 하면서 알게된 점, 고민했던 점을 녹이면서 글을 작성하고 있으며 현재도 발전을 위하여 다양한 개발관련 대외활동을 진행하고 있습니다.
 
 content:
   - title: Work Experience
@@ -51,21 +51,22 @@ content:
         sub_title: Software Engineer
         caption: 2020.01.06 ~ 2022.08.31
         description: | # this will include new lines to allow paragraphs
-          **<a href="https://www.ahnlab.com/kr/site/product/productView.do?prodSeq=131" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Ahnlab AIPS (차세대 네트워크 침입방지 솔루션)</a>** 
+          **<a href="https://www.ahnlab.com/ko/product/intrusion-prevention-system" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Ahnlab AIPS (차세대 네트워크 침입방지 솔루션)</a>** 
           - 기능 개발, 시스템 아키텍처 개선
-            - <mark>WebSocket</mark> <mark>stomp</mark>을 사용하여 웹 팝업 메세지 경보 알림 기능 개발
+            - WebSocket, stomp을 사용하여 웹 경보 메세지 알림 기능 개발
             - Snort 기반의 Rule 정책 등록 편의성을 위한 파일 업로드(import), 다운로드(export) 기능 개발 
             - 보안 인증 서버 외부 연동 처리 로그인 및 스프링 시큐리티 작업
-            - Bulk Insert를 통한 대용량 정책 데이터 삽입 및 <mark>Lucene</mark> Index을 통한 로그 파일 조회 성능 개선
+            - 대용량 정책 데이터 삽입 및 Lucene Index를 통한 로그 파일 조회 성능 개선
           - 운영 이슈 해결 및 장애 대응
-            - 펌웨어 업데이트 진행 중 Out Of Memory로 인하여 장비 재시작 오류 이슈 처리  
-            - 프로젝트 CRUD 작업시 Lucene Index 파일과 RDB 간의 데이터 동기화(Sync) 오류 문제 이슈 처리
+            - 펌웨어 업데이트 진행 중 Out Of Memory로 인한 장비 재시작 오류 이슈 처리  
+            - 장비 내의 RDB와 Lucene Index 파일간의 데이터 동기화(Sync) 오류 문제 이슈 처리
             - 정책 업데이트 후 장비 재시작(reboot) 수행 프로세스 시간 단축 (45ms -> 20ms)
 
-          **<a href="https://www.ahnlab.com/kr/site/product/productView.do?prodSeq=10" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Ahnlab TG (차세대 통합 보안 방화벽)</a>**
+          **<a href="https://www.ahnlab.com/ko/product/next-generation-firewall" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Ahnlab TG (차세대 통합 보안 방화벽)</a>**
           - 기능 개발 및 담당 업무
             -  레거시 개편(php > Spring)
             -  다수의 Migration Script 작성
+            -  CC 인증 관련 이슈 다수 처리
             -  Selenium UI 및 Junit로 테스트 코드 작성하여 유닛 테스트 수행
   - title: Other Experience
     layout: list
@@ -129,19 +130,22 @@ content:
           - CSTS(2017. 11. 24)
           
           **개발 활동**
-          - F-lab 멘티(2022. 08 ~ 2023. 01)
-          - 비사이드 9기 활동(2022. 02 ~ 2022. 06)
+          - F-lab 멘티
+          - 비사이드 9기 활동
+          - 
 
   - title: Education
     layout: list
     content:
       - layout: top-left
         title: 서강대학교정보통신대학원
-        sub_title: 데이터 사이언스 과정(재학)
-        caption: 2021.03 ~
+        sub_title: 데이터 사이언스 과정
+        caption: 2021.03 ~ 2024.08
         quote: >
           서울 소재 대학원
-        description: | # this will include new lines to allow paragraphs
+        description: |
+          - 빅데이터 프로젝트 수행
+          -
       - layout: top-left
         title: 가톨릭대학교
         sub_title: 정보통신전자공학, 컴퓨터공학(복수전공)
