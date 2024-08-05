@@ -128,8 +128,7 @@ content:
         quote: >
           서울 소재 대학원
         description: |
-          - 빅데이터 및 머신러닝 학습 및 토이 프로젝트 수행
-          - IT 대학원 연합회 모임 참여
+          - 빅데이터 및 AI 머신러닝 관련 미니 프로젝트 수행
 
       - layout: top-left
         title: 가톨릭대학교
@@ -186,6 +185,7 @@ content:
           **개발 활동**
           - F-lab 멘티
           - 비사이드 9기 활동 및 포텐데이 참여
+          - IT 대학원 연합회 모임 참여
 
 # Footer
 footer_show_references: false
