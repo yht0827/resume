@@ -97,18 +97,20 @@ content:
           
           **<a href="https://github.com/potenday-project/dj_303" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">DJ 303(Chat GPT 음악 추천 서비스)</a>**
           - Chat GPT API를 활용하여 AI 추천 노래 리스트 활용
-          - Spring Boot를 활용한 플레이리스트 CRUD API 개발
-          - Pessimistic Lock을 활용한 동시성 문제 해결
-          - React를 사용하여 플랫폼 웹 사이트 제작
-          - Docker를 통한 웹 서비스 배포
+          - Spring Boot & React를 활용하여 플레이리스트 웹 서비스 개발
+          - Docker를 통한 자동 웹 서비스 배포
+          - Pessimistic Lock을 활용하여 추천 노래 리스트 생성시 발생하는 동시성 문제 해결
+
+          **<a href="https://github.com/yht0827/kfanboy" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">KPop 팬 플랫폼 서비스</a>**
+          - 
 
       - layout: top-left
         title: Skill
         description: | # this will include new lines to allow paragraphs
           **Backend**
-          - Java,  JavaScript
+          - Java, JavaScript
           - Spring, Spring MVC, Spring Security
-          - Node,  Express
+          - Node, Express
           - IntelliJ, WebStorm, Visual Studio Code
           
           **Frontend**
@@ -131,8 +133,7 @@ content:
           
           **개발 활동**
           - F-lab 멘티
-          - 비사이드 9기 활동
-          - 
+          - 비사이드 9기 활동 및 포텐데이 참여 
 
   - title: Education
     layout: list
@@ -144,8 +145,6 @@ content:
         quote: >
           서울 소재 대학원
         description: |
-          - 빅데이터 프로젝트 수행
-          -
       - layout: top-left
         title: 가톨릭대학교
         sub_title: 정보통신전자공학, 컴퓨터공학(복수전공)
