@@ -122,6 +122,7 @@ content:
           - 계층형 무한 대댓글 성능 개선 방식 구현
           - Lock 기법을 활용하여 선착순 투표 동시성 문제 해결
           - Ngrinder를 통한 TPS 성능 확인 및 검사
+          - Lucene Index을 활용하여 조회 검색 속도 <mark>500만건</mark> 기준 (2.60s -> 300ms) 성능 개선
 
   - title: Education
     layout: list
